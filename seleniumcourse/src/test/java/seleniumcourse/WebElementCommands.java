@@ -12,6 +12,7 @@ public class WebElementCommands extends Base {
 		WebElement partialLink=driver.findElement(By.partialLinkText("Radio Buttons"));
 		WebElement nameExample=driver.findElement(By.name("keywords"));
 		WebElement tagname=driver.findElement(By.tagName("div"));
+		WebElement tagname1=driver.findElement(By.tagName("nav"));
 		WebElement cssselect=driver.findElement(By.cssSelector("button#button-one"));
 		WebElement combination=driver.findElement(By.cssSelector("div.header-top"));
 		WebElement csscombination=driver.findElement(By.cssSelector("button[data-target='#collapsibleNavbar']"));
