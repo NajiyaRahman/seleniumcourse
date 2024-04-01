@@ -16,11 +16,17 @@ public class WebElementExample {
 	}
 	public void webElementsExample()
 	{
-		WebElement searchButton=driver.findElement(By.id("nav-search-submit-button"));
+		//WebElement searchButton=driver.findElement(By.id("nav-search-submit-button"));
 		WebElement hamburgerMenu=driver.findElement(By.id("nav-hamburger-menu"));
 		WebElement amazonLogo=driver.findElement(By.id("nav-logo-sprites"));
 		WebElement locationButton=driver.findElement(By.id("nav-global-location-popover-link"));
 		WebElement cartButton=driver.findElement(By.id("nav-cart-text-container"));
+		
+		WebElement languageSelect=driver.findElement(By.className("icp-nav-link-inner"));
+		WebElement backArrow=driver.findElement(By.className("a-icon a-icon-previous-rounded"));
+		
+		
+		
 	}
 	
 	public void browserQuit()
